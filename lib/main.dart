@@ -10,6 +10,8 @@ class MyApp extends StatelessWidget {
         theme: new ThemeData(
           primarySwatch: Colors.blue,
         ),
+
+
         debugShowCheckedModeBanner: false,
         routes: {
           "/": (_) => new WebviewScaffold(
